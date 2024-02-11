@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>???</title>
+    <link rel="stylesheet" href="{% static 'vdcard/index.css' %}">
+    
+</head>
+<body>
+    <div class="valentines-day-card">
+        <input type="checkbox" name="" id="open">
+        <label for="open" class="open"></label>
+        <div class="card-front">
+            <div class="note"><p>Uyy... Yelli.. Click Mo To</p></div>
+        </div>
+        <div class="card-inside">
+            <div class="heart"></div><div class="text-one">Here's Your</div>
+            <div class="smile"></div>
+            <div class="eyes"></div>
+            <div class="flowers">
+                <img src="{% static 'vdcard/images/flowers.png' %}" alt="">
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
